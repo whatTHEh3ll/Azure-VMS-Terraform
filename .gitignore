@@ -1,0 +1,20 @@
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+
+*.tfstate
+*.backup
+*.tfvars
+*.json
+*.txt
+
+
+azure-lockdown-ubuntu/.terraform/
+spot/.terraform/
+
+azure-lockdown-ubuntu-18/backend.tf
+spot/backend.tf
+
+
+# use git rm --cached file.name to ignore commited file
