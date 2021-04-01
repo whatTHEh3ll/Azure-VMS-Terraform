@@ -27,3 +27,5 @@ resource "local_file" "inventory" {
 
 
 
+
+

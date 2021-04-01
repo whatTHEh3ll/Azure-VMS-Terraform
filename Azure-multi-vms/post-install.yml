@@ -1,0 +1,13 @@
+---
+- hosts: Azure
+
+  tasks:
+  
+  - name: ansible remove default Azure user
+    become: yes 
+    user:
+      name: azure
+      state: absent
+      force: yes
+
+  
