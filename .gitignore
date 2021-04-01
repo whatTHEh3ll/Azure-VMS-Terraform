@@ -17,10 +17,11 @@ Azure-multi-vms/.terraform/
 Azure-multi-vms-spot/.terraform/ 
 
 azure-lockdown-ubuntu-18/backend.tf
-spot/backend.tf
+Azure-spot/backend.tf
 Azure-multi-vms/backend.tf 
 Azure-multi-vms-spot/backend.tf
 
 
 
-# use git rm --cached file.name to ignore commited file
+# use 'git rm --cached file.name' to ignore commited file
+# use 'git status --ignored' to see ignore files
