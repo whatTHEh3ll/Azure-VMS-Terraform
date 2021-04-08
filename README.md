@@ -1,4 +1,4 @@
-# Terraform Google Cloud Virtual Machines
+# Terraform AZURE Cloud Virtual Machines
 ## using terraform to provision Azure Virtual machines and spot instances as well. The terraform output will create a hosts.ini file for Ansible playbooks
 
 ##### run the provided bash script to create an Azure storage backend
