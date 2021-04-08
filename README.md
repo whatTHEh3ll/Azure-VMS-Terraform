@@ -23,7 +23,7 @@ location       = "westus2"
 
 prefix         = "spot"
 
-ssh-source-address = "" # get public ip curl ipinfo.io
+ssh-source-address = "# get public ip curl ipinfo.io"
 
 public_key_path = "path/to/ssh/public_key"
 

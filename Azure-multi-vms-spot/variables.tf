@@ -21,7 +21,3 @@ variable "public_key_path" {
   description = "The path to the public key used to connect to the instance"
 }
 
-variable "private_key_path" {
-  type        =  string
-  description = "The path to the private key used to connect to the instance"
-}

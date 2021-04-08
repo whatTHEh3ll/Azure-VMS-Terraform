@@ -8,18 +8,23 @@ terraform.tfvars
 *.tfvars
 *.json
 *.txt
+*.log
 
 
-
-azure-lockdown-ubuntu-18/.terraform/
-spot/.terraform/
+Azure-lockdown-ubuntu-18/.terraform/
+Azure-spot/.terraform/
 Azure-multi-vms/.terraform/
 Azure-multi-vms-spot/.terraform/ 
 
-azure-lockdown-ubuntu-18/backend.tf
+Azure-lockdown-ubuntu-18/backend.tf
 Azure-spot/backend.tf
 Azure-multi-vms/backend.tf 
 Azure-multi-vms-spot/backend.tf
+
+Azure-lockdown-ubuntu-18/crash.log
+Azure-spot/crash.log
+Azure-multi-vms/crash.log
+Azure-multi-vms-spot/crash.log
 
 
 
